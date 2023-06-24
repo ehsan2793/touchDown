@@ -20,11 +20,17 @@ struct NavigationBarView: View {
                     .foregroundColor(.black)
             }) //: BUTTON
             Spacer()
+            
+            LogoView()
+            
+            Spacer()
+
             Button(action: {}, label: {
                 ZStack {
                     Image(systemName: "cart")
                         .font(.title)
                         .foregroundColor(.black)
+
                     Circle()
                         .fill(Color.red)
                         .frame(width: 14, height: 14, alignment: .center)
