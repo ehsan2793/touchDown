@@ -13,7 +13,8 @@ struct ContentView: View {
     // MARK: - BODY
 
     var body: some View {
-       FooterView()
+        FooterView()
+            .padding(.horizontal)
     }
 }
 
