@@ -16,6 +16,7 @@
 		7C4B97A22A479BAF00FBE683 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B979E2A479BAF00FBE683 /* player.json */; };
 		7C4B97A32A479BAF00FBE683 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C4B979F2A479BAF00FBE683 /* product.json */; };
 		7C4B97AE2A47A32600FBE683 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B97AD2A47A32600FBE683 /* Constant.swift */; };
+		7C4B97B02A47AE5400FBE683 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B97AF2A47AE5400FBE683 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7C4B979F2A479BAF00FBE683 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		7C4B97A52A47A16200FBE683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7C4B97AD2A47A32600FBE683 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7C4B97AF2A47AE5400FBE683 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,8 @@
 		7C4B97A72A47A25800FBE683 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7C4B97A92A47A26500FBE683 /* Detail */,
 				7C4B97A82A47A25F00FBE683 /* Home */,
+				7C4B97A92A47A26500FBE683 /* Detail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +117,7 @@
 		7C4B97A82A47A25F00FBE683 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				7C4B97AF2A47AE5400FBE683 /* FooterView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4B97912A47994400FBE683 /* ContentView.swift in Sources */,
+				7C4B97B02A47AE5400FBE683 /* FooterView.swift in Sources */,
 				7C4B978F2A47994400FBE683 /* TouchdownApp.swift in Sources */,
 				7C4B97AE2A47A32600FBE683 /* Constant.swift in Sources */,
 			);
