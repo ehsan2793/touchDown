@@ -23,6 +23,7 @@
 		7C4B97BA2A47FC4200FBE683 /* CodableBundleExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B97B92A47FC4200FBE683 /* CodableBundleExtention.swift */; };
 		7C4B97BC2A48023700FBE683 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B97BB2A48023700FBE683 /* FeaturedItemView.swift */; };
 		7C4B97BE2A48035800FBE683 /* FeatuedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B97BD2A48035800FBE683 /* FeatuedTabView.swift */; };
+		7C4B97C02A4814EC00FBE683 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B97BF2A4814EB00FBE683 /* CategoryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		7C4B97B92A47FC4200FBE683 /* CodableBundleExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtention.swift; sourceTree = "<group>"; };
 		7C4B97BB2A48023700FBE683 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		7C4B97BD2A48035800FBE683 /* FeatuedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatuedTabView.swift; sourceTree = "<group>"; };
+		7C4B97BF2A4814EB00FBE683 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				7C4B97B72A47FBC700FBE683 /* PlayerModel.swift */,
+				7C4B97BF2A4814EB00FBE683 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				7C4B97B02A47AE5400FBE683 /* FooterView.swift in Sources */,
 				7C4B97BC2A48023700FBE683 /* FeaturedItemView.swift in Sources */,
 				7C4B978F2A47994400FBE683 /* TouchdownApp.swift in Sources */,
+				7C4B97C02A4814EC00FBE683 /* CategoryModel.swift in Sources */,
 				7C4B97AE2A47A32600FBE683 /* Constant.swift in Sources */,
 				7C4B97B22A47B19400FBE683 /* NavigationBarView.swift in Sources */,
 				7C4B97B82A47FBC700FBE683 /* PlayerModel.swift in Sources */,
