@@ -9,45 +9,48 @@ import SwiftUI
 
 struct ProductDetailView: View {
     // MARK: - PROPERTIES
-    
+
     // MARK: - BODY
 
     var body: some View {
-        VStack(alignment: .leading,spacing: 5) {
+        VStack(alignment: .leading, spacing: 5) {
             //: NAVBAR
             NavigationBarDetailView()
                 .padding(.horizontal)
-            
+
             //: HEADER
             HeaderDetailView()
                 .padding(.horizontal)
-            
+
             //: DETAIL TOP PART
             TopPartDetailView()
                 .padding(.horizontal)
-            
-            
+
             //: DETAIL BUTTOM PART
-            
-            
-            //: RATING + SIZES
-            
-            
-            //: DESCRIPTION
-            
-            
-            //: QUANTITY + FAVOURITE
-            
-            
-            //: ADD TO CART
-            Spacer()
-            
-        }//: VSTACK 
+            VStack(alignment: .center, spacing: 0) {
+                //: RATING + SIZES
+
+                //: DESCRIPTION
+                ScrollView(.vertical, showsIndicators: false) {
+                    Text(sampleProduct.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.leading)
+                } //: SCROLL
+
+                //: QUANTITY + FAVOURITE
+
+                //: ADD TO CART
+
+                Spacer()
+            } //: VSTACK
+            .padding(.horizontal)
+            .background(Color.white)
+        } //: VSTACK
 //        .ignoresSafeArea(.all,edges: .all)
         .background(sampleProduct.backgroundColor)
 //        .ignoresSafeArea(.all,edges: .all)
     }
-
 }
 
 // MARK: PREVIEW

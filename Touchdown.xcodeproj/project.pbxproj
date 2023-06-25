@@ -37,6 +37,7 @@
 		7C675B482A48E3FC00B554A7 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C675B472A48E3FC00B554A7 /* NavigationBarDetailView.swift */; };
 		7C675B4A2A48E56800B554A7 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C675B492A48E56800B554A7 /* HeaderDetailView.swift */; };
 		7C675B4C2A48E65400B554A7 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C675B4B2A48E65400B554A7 /* TopPartDetailView.swift */; };
+		7C675B4E2A48EDE000B554A7 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C675B4D2A48EDE000B554A7 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		7C675B472A48E3FC00B554A7 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		7C675B492A48E56800B554A7 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		7C675B4B2A48E65400B554A7 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		7C675B4D2A48EDE000B554A7 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				7C4B97AD2A47A32600FBE683 /* Constant.swift */,
+				7C675B4D2A48EDE000B554A7 /* CustomShape.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				7C675B422A48DCED00B554A7 /* BrandItemView.swift in Sources */,
 				7C4B97C42A48195300FBE683 /* CategoryItemView.swift in Sources */,
 				7C4B97B22A47B19400FBE683 /* NavigationBarView.swift in Sources */,
+				7C675B4E2A48EDE000B554A7 /* CustomShape.swift in Sources */,
 				7C4B97B82A47FBC700FBE683 /* PlayerModel.swift in Sources */,
 				7C675B402A48DBEE00B554A7 /* BrandModel.swift in Sources */,
 				7C675B3A2A48B6BB00B554A7 /* TitleView.swift in Sources */,
