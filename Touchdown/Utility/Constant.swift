@@ -13,7 +13,7 @@ let players: [Player] = Bundle.main.load(fileName: "player.json")
 let categories: [Category] = Bundle.main.load(fileName: "category.json")
 let products: [Product] = Bundle.main.load(fileName: "product.json")
 let brands: [Brand] = Bundle.main.load(fileName: "brand.json")
-
+let sampleProduct: Product = products[0]
 // COLOR
 
 let colorBackground: Color = Color("ColorBackground")
