@@ -26,6 +26,12 @@ struct ContentView: View {
                         .frame(height: 270, alignment: .top)
 
                     CategoryGridView()
+                    
+                    TitleView(title: "Helmets")
+                    
+                    LazyVGrid (columns: gridLayout,spacing: 15) {
+                        
+                    }//: VGRID
 
                     FooterView()
                         .padding(.horizontal)
