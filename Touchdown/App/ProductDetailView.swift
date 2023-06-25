@@ -33,7 +33,7 @@ struct ProductDetailView: View {
                 RatingSizesDetailView()
                     .padding(.top, -25)
                     .padding(.bottom, 10)
-                
+
                 //: DESCRIPTION
                 ScrollView(.vertical, showsIndicators: false) {
                     Text(sampleProduct.description)
@@ -43,13 +43,14 @@ struct ProductDetailView: View {
                 } //: SCROLL
 
                 //: QUANTITY + FAVOURITE
-                
+
                 QuantityFavoriteDetailView()
-                    .padding(.vertical,10)
+                    .padding(.vertical, 10)
 
                 //: ADD TO CART
 
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
             } //: VSTACK
             .padding(.horizontal)
             .background(
@@ -61,7 +62,6 @@ struct ProductDetailView: View {
         .zIndex(0)
         .edgesIgnoringSafeArea(.bottom)
         .background(sampleProduct.backgroundColor)
-//        .ignoresSafeArea(.all,edges: .all)
     }
 }
 
