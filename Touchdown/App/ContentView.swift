@@ -23,16 +23,12 @@ struct ContentView: View {
             ScrollView(.vertical, showsIndicators: false, content: {
                 VStack(spacing: 0) {
                     FeatuedTabView()
-                        .frame(height: 240,alignment: .top)
-                        .padding(.vertical, 20)
-                        
-                    
+                        .frame(height: 270, alignment: .top)
+
                     FooterView()
                         .padding(.horizontal)
                 } //: VSTACK
             }) //: SCROLL
-
-
         } //: VSTACK
         .background(colorBackground.ignoresSafeArea(.all, edges: .all))
     }
