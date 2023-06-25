@@ -17,16 +17,17 @@ struct ProductDetailView: View {
             //: NAVBAR
             NavigationBarDetailView()
                 .padding(.horizontal)
-                .padding(.top)
             
             //: HEADER
             HeaderDetailView()
                 .padding(.horizontal)
             
             //: DETAIL TOP PART
+            TopPartDetailView()
+                .padding(.horizontal)
             
             
-            //: DETAIL BUTTON PART
+            //: DETAIL BUTTOM PART
             
             
             //: RATING + SIZES
