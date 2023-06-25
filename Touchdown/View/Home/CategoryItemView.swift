@@ -28,7 +28,12 @@ struct CategoryItemView: View {
 
                 Spacer()
             } //: HSTACK
-            .background()
+            .padding()
+            .background(Color.white.cornerRadius(12))
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(Color.gray, lineWidth: 1)
+            )
             .foregroundColor(.gray)
         }) //: BUTTON
     }
