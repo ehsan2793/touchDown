@@ -8,6 +8,8 @@
 import SwiftUI
 // DATA
 
+let players: [Player] = Bundle.main.load(fileName: "player.json")
+
 // COLOR
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
