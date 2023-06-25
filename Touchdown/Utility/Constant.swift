@@ -20,6 +20,10 @@ let colorGray: Color = Color(UIColor.systemGray4)
 // LAYOUT
 
 let columnSpacing: CGFloat = 10
+let rowSpacing: CGFloat = 10
+var gridLayout: [GridItem] {
+    return Array(repeating: GridItem(.flexible(),spacing: rowSpacing), count: 2)
+}
 
 
 
