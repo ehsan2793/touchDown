@@ -15,7 +15,8 @@ struct FeaturedItemView: View {
     var body: some View {
         Image(player.image)
             .resizable()
-            .scaledToFit()
+//            .scaledToFit()
+            .scaledToFill()
             .cornerRadius(12)
         
     }
