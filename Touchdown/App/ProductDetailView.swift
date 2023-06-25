@@ -25,6 +25,7 @@ struct ProductDetailView: View {
             //: DETAIL TOP PART
             TopPartDetailView()
                 .padding(.horizontal)
+                .zIndex(1)
 
             //: DETAIL BUTTOM PART
             VStack(alignment: .center, spacing: 0) {
@@ -45,9 +46,14 @@ struct ProductDetailView: View {
                 Spacer()
             } //: VSTACK
             .padding(.horizontal)
-            .background(Color.white)
+            .background(
+                Color.white
+                    .clipShape(CustomShape())
+                    .padding(.top, -105)
+            )
         } //: VSTACK
-//        .ignoresSafeArea(.all,edges: .all)
+        .zIndex(0)
+        .edgesIgnoringSafeArea(.bottom)
         .background(sampleProduct.backgroundColor)
 //        .ignoresSafeArea(.all,edges: .all)
     }
