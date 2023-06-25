@@ -24,7 +24,6 @@ struct ContentView: View {
                 VStack(spacing: 0) {
                     FeatuedTabView()
                         .frame(height: 270, alignment: .top)
-                        .padding(.vertical,10)
 
                     CategoryGridView()
 
