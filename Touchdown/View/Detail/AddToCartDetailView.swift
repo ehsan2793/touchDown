@@ -9,7 +9,9 @@ import SwiftUI
 
 struct AddToCartDetailView: View {
     // MARK: - PROPERTIES
+
     @EnvironmentObject var shop: Shop
+
     // MARK: - BODY
 
     var body: some View {

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TopPartDetailView: View {
     // MARK: - PROPERTIES
+
     @EnvironmentObject var shop: Shop
     @State private var isAnimating: Bool = false
 
